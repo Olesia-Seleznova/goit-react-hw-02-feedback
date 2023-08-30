@@ -1,19 +1,29 @@
 import styled from 'styled-components';
 
-export const App = styled.div`
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  color: #010101;
-  background-color: #d1d1d1;
-`;
+// export const App = styled.div`
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 40px;
+//   color: #010101;
+//   background-color: #d1d1d1;
+// `;
 
 export const Title = styled.h1`
   font-size: 35px;
+`;
+
+export const Buttons = styled.div`
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+  gap: 10px;
 `;
 
 export const Button = styled.button`
