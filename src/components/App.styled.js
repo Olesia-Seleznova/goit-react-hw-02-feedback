@@ -52,8 +52,8 @@ export const StatMarckup = styled.ul`
 `;
 
 export const StatItem = styled.li`
-  font-size: 40px;
-  color: rgb(105, 15, 189);
+  font-size: 20px;
+  color: grey;
   font-weight: 500;
 
   :not(:last-child) {
